@@ -254,7 +254,7 @@ html {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-image: linear-gradient(red,green);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -444,7 +444,7 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: linear-gradient(red,green);
 }
 
 .project-card {
@@ -542,7 +542,7 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: linear-gradient(red,green);
   color: white !important;
 }
 
@@ -601,7 +601,7 @@ html {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: linear-gradient(red,green);
   color: white !important;
 }
 

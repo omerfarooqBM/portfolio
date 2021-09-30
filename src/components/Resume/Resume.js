@@ -32,12 +32,12 @@ function Resume() {
     <Container fluid className="resume-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
-        </Row>
+        </Row> */}
         <Row className="resume">
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
@@ -54,7 +54,7 @@ function Resume() {
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
+              title="Web Developer [Saylani Mass I.T (SMIT) ]"
               content={[
                 "Worked on building front-end UI design using HTML5, CSS3, JavaScript jQuery, and building API routes using Node and express.js.",
               ]}
@@ -63,7 +63,7 @@ function Resume() {
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
+              title="sindh madressatul islam university "
               date="2018 - Present"
               content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
             />
@@ -88,12 +88,12 @@ function Resume() {
             />
           </Col>
         </Row>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );
