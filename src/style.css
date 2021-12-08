@@ -254,7 +254,7 @@ html {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: linear-gradient(red,green);
+  background-image: linear-gradient(rgb(117, 25, 25),rgb(7, 7, 7));
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -444,7 +444,7 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: linear-gradient(red,green);
+  background-image: linear-gradient(rgb(117, 25, 25),rgb(7, 7, 7));
 }
 
 .project-card {
@@ -542,7 +542,7 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: linear-gradient(red,green);
+  background-image: linear-gradient(rgb(117, 25, 25),rgb(7, 7, 7));
   color: white !important;
 }
 
@@ -601,7 +601,7 @@ html {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: linear-gradient(red,green);
+  background-image: linear-gradient(rgb(117, 25, 25),rgb(7, 7, 7));
   color: white !important;
 }
 
