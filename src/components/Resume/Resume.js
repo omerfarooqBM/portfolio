@@ -42,7 +42,7 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Frontend Developer Intern [Flash Tech]"
+              title="Frontend Developer Intern"
               date="July 2021 - September 2021"
               content={[
                 "Worked on the development of an E-commerce website",
@@ -65,7 +65,7 @@ function Resume() {
             <Resumecontent
               title="sindh madressatul islam university "
               date="2018 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
+              content={[`CGPA: 3.1(Till 7th Sem)`]}
             />
 
             <h3 className="resume-title">Publications</h3>
@@ -76,7 +76,7 @@ function Resume() {
               ]}
             />
 
-            <h3 className="resume-title">Ranks and Achivements</h3>
+            {/* <h3 className="resume-title">Ranks and Achivements</h3>
             <Resumecontent
               title=""
               content={[
@@ -85,7 +85,7 @@ function Resume() {
                 "Top Performer in Code-Break 1.0",
                 "Participant in Hack-A-Bit 2019",
               ]}
-            />
+            /> */}
           </Col>
         </Row>
         {/* <Row style={{ justifyContent: "center", position: "relative" }}>

@@ -24,11 +24,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              
               isBlog={false}
-              title="TODO App"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://omerfarooqbm.github.io/fbtodo/"
+              title="Food Delivery Web App"
+              description="Food Delivery web App for both users and restaurants using firebase database and javaScript"
+              link="https://omerfarooqbm.github.io/Restraunt/"
+              
             />
           </Col>
 
@@ -36,9 +36,9 @@ function Projects() {
             <ProjectCard
               
               isBlog={false}
-              title="Mobile Cataloge"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://omerfarooqbm.github.io/catalog/"
+              title="Expense Tracker Web App"
+              description="Tracker App For your expense made through react and redux."
+              link="https://omerexp.surge.sh/"
             />
           </Col>
 
@@ -46,18 +46,38 @@ function Projects() {
             <ProjectCard
               
               isBlog={false}
-              title="Stopwatch"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://omerfarooqbm.github.io/stopwatch/"
+              title="Chat Web App"
+              description="The most complete chat UI for Reac & Webline through React."
+              link="https://fochat.surge.sh/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
+              
               isBlog={false}
-              title="Js CountDown"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://omerfarooqbm.github.io/bakraeid/"
+              title="Ecommerce Web App"
+              description="ecommerce website through ReactJS."
+              link="https://eomerce.web.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              
+              isBlog={false}
+              title="Weather Web App"
+              description="Complete weather forecast app made with ReactJS."
+              link="omerweather.surge.sh/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              
+              isBlog={false}
+              title="Quiz Web App"
+              description="simple quiz game made with HTML CSS and JavaScript"
+              link="https://omerfarooqbm.github.io/quiz-app/"
             />
           </Col>
 
